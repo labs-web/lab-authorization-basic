@@ -5,12 +5,12 @@
 - Ajouter l'authentification pour [`Lab-Laravel-crud-basic`](https://github.com/Jalil-Betroji/lab-crud.git) .
 - Additionner l'autorisation pour [`Lab-Laravel-crud-basic`](https://github.com/Jalil-Betroji/lab-crud.git) en utilisant uniquement `gate` sans recourir aux `policies`.
 
-### Steps to run this application 
+### Command used in the application
 
 1. Clone the Repository:
 
 ```bash
-git clone https://github.com/Jalil-Betroji/lab-Authorization-basic.git
+git clone https://github.com/Jalil-Betroji/lab-crud.git
 ```
 
 2. Update Composer Dependencies:
@@ -42,7 +42,3 @@ php artisan db:seed
 ```bash 
 php artisan serve
 ```
-
-7. Access the Application:
-
-Once the server is running, access the application through your web browser.
