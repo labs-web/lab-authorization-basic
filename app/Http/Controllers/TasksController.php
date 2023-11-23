@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Task;
 use App\Models\User;
 
-class TaskController extends AppBaseController
+class TasksController extends AppBaseController
 {
     public function index(Request $request){
         
