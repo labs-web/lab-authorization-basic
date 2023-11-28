@@ -3,9 +3,21 @@
 ## Travail à faire
 
 - Ajouter l'authentification pour [`Lab-Laravel-crud-basic`](https://github.com/Jalil-Betroji/lab-crud.git) .
-- Additionner l'autorisation pour [`Lab-Laravel-crud-basic`](https://github.com/Jalil-Betroji/lab-crud.git) en utilisant uniquement `gate` sans recourir aux `policies`.
+- Additionner l'autorisation pour [`Lab-Laravel-crud-basic`](https://github.com/Jalil-Betroji/lab-crud.git) .
 
-### Command used in the application
+### Critères de validation
+
+- Intégrer l'authentification via Laravel Auth.
+- Appliquer la fonction callAction.
+- Utiliser Gate pour les autorisations.
+- Éviter l'utilisation des policies
+
+#### Référence
+- [Authentififcation](https://laravel.com/docs/10.x/authentication)
+- [authorization référence 1](https://laravel.com/docs/10.x/authorization)
+- [authorization référence 2](https://jhadiary.wordpress.com/2020/03/14/laravel-call-a-routine-or-function-before-each-route-action-is-called/ )
+
+##### Command used in the application
 
 1. Clone the Repository:
 
